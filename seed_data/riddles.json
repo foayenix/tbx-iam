@@ -1,0 +1,258 @@
+[
+  {
+    "text": "I am round and have no beginning or end. I represent infinity and completeness. What am I?",
+    "answer": "circle",
+    "aliases": ["a circle", "the circle"],
+    "category": "abstract",
+    "difficulty": "easy",
+    "hint": "Think of a shape"
+  },
+  {
+    "text": "I am the king of the jungle, with a majestic mane. I roar loudly to mark my territory. What am I?",
+    "answer": "lion",
+    "aliases": ["a lion", "the lion"],
+    "category": "animals",
+    "difficulty": "easy",
+    "hint": "A big cat"
+  },
+  {
+    "text": "I am yellow and curved. Monkeys love me, and I grow in bunches. What am I?",
+    "answer": "banana",
+    "aliases": ["a banana", "bananas"],
+    "category": "food",
+    "difficulty": "easy",
+    "hint": "A fruit"
+  },
+  {
+    "text": "I am white and cold. I fall from the sky in winter and cover the ground. What am I?",
+    "answer": "snow",
+    "aliases": ["snowflakes", "snowflake"],
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am a giant ball of hot gas that gives light and warmth to Earth. What am I?",
+    "answer": "sun",
+    "aliases": ["the sun"],
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the fastest land animal. I have spots and can run at incredible speeds. What am I?",
+    "answer": "cheetah",
+    "aliases": ["a cheetah", "the cheetah"],
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am red and round. You can eat me fresh or make sauce from me. What am I?",
+    "answer": "tomato",
+    "aliases": ["a tomato", "tomatoes"],
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am a precious metal, shiny and yellow. I am used in jewelry and coins. What am I?",
+    "answer": "gold",
+    "aliases": [],
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the largest mammal in the ocean. I sing songs and can be heard from miles away. What am I?",
+    "answer": "whale",
+    "aliases": ["a whale", "whales"],
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am tall and have leaves at the top. Birds nest in me and I provide shade. What am I?",
+    "answer": "tree",
+    "aliases": ["a tree", "trees"],
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am invisible but you can feel me. I blow and make leaves dance. What am I?",
+    "answer": "wind",
+    "aliases": ["the wind", "air"],
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am always hungry and must be fed. I turn everything I touch into ash. What am I?",
+    "answer": "fire",
+    "aliases": ["flame", "flames"],
+    "category": "nature",
+    "difficulty": "medium",
+    "hint": "Hot and dangerous"
+  },
+  {
+    "text": "I am full of keys but can't open any door. Musicians play me. What am I?",
+    "answer": "piano",
+    "aliases": ["a piano", "keyboard"],
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am the force that keeps you on the ground and makes things fall down. What am I?",
+    "answer": "gravity",
+    "aliases": [],
+    "category": "abstract",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am transparent and wet. Fish live in me, and I cover most of the Earth. What am I?",
+    "answer": "water",
+    "aliases": ["h2o", "the ocean", "ocean"],
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the smallest unit of life. I am the building block of all living things. What am I?",
+    "answer": "cell",
+    "aliases": ["a cell", "cells"],
+    "category": "abstract",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am a large continent known for my kangaroos and koalas. What am I?",
+    "answer": "australia",
+    "aliases": [],
+    "category": "places",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the tallest mountain on Earth. Climbers seek to reach my peak. What am I?",
+    "answer": "everest",
+    "aliases": ["mount everest", "mt everest"],
+    "category": "places",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am the capital of France, known for my Eiffel Tower. What am I?",
+    "answer": "paris",
+    "aliases": [],
+    "category": "places",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the red planet in our solar system. Scientists search for life on me. What am I?",
+    "answer": "mars",
+    "aliases": [],
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am made of many colours and appear after rain when the sun shines. What am I?",
+    "answer": "rainbow",
+    "aliases": ["a rainbow"],
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am black and white and loved in China. I eat bamboo all day. What am I?",
+    "answer": "panda",
+    "aliases": ["a panda", "giant panda"],
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am frozen water that floats. Ships fear hitting me in the ocean. What am I?",
+    "answer": "iceberg",
+    "aliases": ["an iceberg", "ice"],
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am the closest star to Earth. I rise in the east and set in the west. What am I?",
+    "answer": "sun",
+    "aliases": ["the sun"],
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am carved on Halloween and grow in patches. What am I?",
+    "answer": "pumpkin",
+    "aliases": ["a pumpkin", "pumpkins"],
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the longest river in the world, flowing through Africa. What am I?",
+    "answer": "nile",
+    "aliases": ["the nile", "nile river"],
+    "category": "places",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am sweet and sticky. Bees make me from flower nectar. What am I?",
+    "answer": "honey",
+    "aliases": [],
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the largest organ in the human body. I protect you from harm. What am I?",
+    "answer": "skin",
+    "aliases": [],
+    "category": "people",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am the powerhouse of the cell. I produce energy. What am I?",
+    "answer": "mitochondria",
+    "aliases": ["mitochondrion"],
+    "category": "abstract",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I am a natural phenomenon where the ground shakes. I can cause great destruction. What am I?",
+    "answer": "earthquake",
+    "aliases": ["an earthquake", "quake"],
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am the study of the stars and planets. Astronomers practice me. What am I?",
+    "answer": "astronomy",
+    "aliases": [],
+    "category": "abstract",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I am a large grey animal with a trunk. I never forget. What am I?",
+    "answer": "elephant",
+    "aliases": ["an elephant"],
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "text": "I am the process by which plants make food using sunlight. What am I?",
+    "answer": "photosynthesis",
+    "aliases": [],
+    "category": "abstract",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I am a giant wave caused by underwater earthquakes. What am I?",
+    "answer": "tsunami",
+    "aliases": ["a tsunami"],
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I am the imaginary line that divides Earth into Northern and Southern hemispheres. What am I?",
+    "answer": "equator",
+    "aliases": ["the equator"],
+    "category": "abstract",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I am a white crystalline substance that makes food taste better. Too much of me is unhealthy. What am I?",
+    "answer": "salt",
+    "aliases": [],
+    "category": "food",
+    "difficulty": "easy"
+  }
+]

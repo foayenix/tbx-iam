@@ -1,0 +1,75 @@
+name: i_am
+description: A riddle game where you discover what "I am"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  hooks_riverpod: ^2.4.9
+  flutter_hooks: ^0.20.3
+
+  # Routing
+  go_router: ^12.1.1
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  firebase_analytics: ^10.7.4
+  cloud_firestore: ^4.13.6
+  cloud_functions: ^4.5.12
+  firebase_remote_config: ^4.3.8
+  firebase_dynamic_links: ^5.4.8
+  firebase_storage: ^11.5.6
+
+  # Ads
+  google_mobile_ads: ^4.0.0
+
+  # UI & Utilities
+  intl: ^0.18.1
+  timezone: ^0.9.2
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+
+  # Screenshot/Share Card
+  screenshot: ^2.1.0
+
+  # Text Processing
+  diacritic: ^0.1.4
+  crypto: ^3.0.3
+
+  # Logging
+  logger: ^2.0.2+1
+
+  # UUID
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  mocktail: ^1.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700

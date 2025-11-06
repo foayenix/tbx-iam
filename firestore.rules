@@ -1,0 +1,90 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuthenticated() && request.auth.uid == uid;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.roles.isAdmin == true;
+    }
+
+    // Users collection
+    match /users/{uid} {
+      // Users can read their own document
+      allow read: if isOwner(uid);
+
+      // Users can create their own document (on first auth)
+      allow create: if isOwner(uid);
+
+      // Users can update their own document (limited fields)
+      allow update: if isOwner(uid) &&
+                       !request.resource.data.diff(resource.data).affectedKeys()
+                         .hasAny(['coins', 'bestScoreAllTime', 'roles']);
+
+      // No delete
+      allow delete: if false;
+    }
+
+    // Riddles collection
+    match /riddles/{riddleId} {
+      // Anyone can read live riddles
+      allow read: if resource.data.status == 'live' || isAdmin();
+
+      // Authenticated users can create (submit) riddles
+      allow create: if isAuthenticated() &&
+                       request.resource.data.status == 'pending' &&
+                       request.resource.data.createdBy == request.auth.uid;
+
+      // Only admins can update (moderate) riddles
+      allow update: if isAdmin();
+
+      // Only admins can delete riddles
+      allow delete: if isAdmin();
+    }
+
+    // Leaderboards (read-only for users)
+    match /leaderboards/{leaderboardId}/scores/{uid} {
+      // Anyone can read leaderboard entries
+      allow read: if true;
+
+      // Only Cloud Functions can write
+      allow write: if false;
+    }
+
+    // Referrals (Cloud Functions only)
+    match /referrals/{referralId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    // Submissions (mirror of riddles for moderation)
+    match /submissions/{submissionId} {
+      // Users can read their own submissions
+      allow read: if isAuthenticated() &&
+                     resource.data.createdBy == request.auth.uid;
+
+      // Admins can read all
+      allow read: if isAdmin();
+
+      // Same create rules as riddles
+      allow create: if isAuthenticated() &&
+                       request.resource.data.createdBy == request.auth.uid;
+
+      allow update, delete: if isAdmin();
+    }
+
+    // Rotations (admin only)
+    match /rotations/{rotationId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}
